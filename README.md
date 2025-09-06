@@ -1,2 +1,2 @@
 # private_media
-Управление моим частным медиа
+# [Мой сервер](https://volokzhaninvadim.github.io/server/)
