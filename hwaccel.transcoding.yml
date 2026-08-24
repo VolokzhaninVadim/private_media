@@ -2,6 +2,7 @@ services:
   cpu: {}
 
   nvenc:
+    runtime: nvidia
     deploy:
       resources:
         reservations:

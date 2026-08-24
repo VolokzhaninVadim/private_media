@@ -16,6 +16,7 @@ services:
       - redis
       - database
     restart: always
+    runtime: nvidia
     healthcheck:
       disable: false
 
@@ -29,6 +30,7 @@ services:
       - model-cache:/cache
     env_file:
       - .env
+    runtime: nvidia    
     restart: always
     healthcheck:
       disable: false
